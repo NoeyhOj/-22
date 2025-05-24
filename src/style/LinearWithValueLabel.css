@@ -1,0 +1,21 @@
+.wrapper {
+    background-color: rgba(27, 24, 24, 0.8);
+    position: fixed; /* 변경된 부분 */
+    top: 0; /* 변경된 부분 */
+    left: 0; /* 변경된 부분 */
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  
+  .wrapper > p {
+    margin: 0;
+    font-size: large;
+  }
+  

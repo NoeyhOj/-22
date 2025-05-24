@@ -1,0 +1,52 @@
+.total-container {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.bar-container {
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.progress-bar {
+    flex: 1;
+    height: 20px;
+    background-color: #e0e0de;
+    border-radius: 50px;
+    margin: 0 10px;
+}
+
+.percent {
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.label {
+    padding: 5px;
+    color: blue;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Malgun Gothic";
+    width: 120px;
+    cursor: pointer;
+    display: inline;
+    word-break: keep-all;
+}
+
+.btn-color {
+    word-break: keep-all;
+    font-weight: bold;
+    background-color: green;
+    border-color: green;
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -1.5rem;
+  }

@@ -1,0 +1,154 @@
+.Main {
+    height: 100%;
+    padding: 0 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 0rem;
+    margin-bottom: 0rem; */
+  }
+  
+  .Main > * {
+    margin: 1px 0;
+  }
+  
+  .Main-primary-subheading {
+    font-weight: 600;
+    color: #fe9e0d;
+    font-size: 1rem;
+  }
+  
+  .header {
+    text-align: left;
+    word-break:keep-all;
+  } 
+  
+  .header p {
+    margin: 3px 0;
+  }
+  
+  .header h1 {
+    /* margin-top: 0rem; */
+    color: #333333;
+    font-family: Verdana, sans-serif, 'Segoe UI', Tahoma  ;
+  }
+  /* .classbar {
+    margin-top:0rem;
+    margin-bottom:0rem;  
+  } */
+
+  .code {
+    padding: 5px;
+    color: greenyellow;
+    background-color: black;
+    border-radius: 5px;
+  }
+  
+  .content > img {
+    width: 100%;
+    max-width: 720px;
+    max-height: 600px;
+    border-radius: 10px;
+  }
+  
+  .content > video {
+    width: 100%;
+    max-width: 720px;
+    max-height: 600px;
+    border-radius: 10px;
+  }
+
+    .bg-content {
+    display: inline-block; /* 컨텐츠의 크기를 유지하는 스타일 */
+    padding: 1px; /* 원하는 패딩 값을 설정 */
+    border-radius: 5px;
+    /* margin-bottom: 3rem; 버튼 아래 공백 */
+  }
+  .button-set {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    min-width: 300px;
+  }
+  .content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 기타 스타일 */
+  }
+  .content {
+    position: relative;
+  }
+  
+  .content > canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  button {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    margin: 0 5px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+  }
+  
+  .buttons-wrapper {
+    display: flex;
+    margin-top: 10px; /* 위쪽 간격 설정 */
+    margin-bottom: 10px; /* 위쪽 간격 설정 */
+    justify-content: center; /* 버튼들을 수평 가운데로 정렬하는 스타일 */
+    align-items: center;
+  }
+  
+  .containerStyles {
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .progressBarStyles {
+    flex: 1;
+    height: 20px;
+    background-color: #e0e0de;
+    border-radius: 50px;
+    margin: 0 10px;
+  }
+  
+  .fillerStyles {
+    height: 100%;
+    width: 0;
+    background-color: inherit; 
+    transition: width 1s ease-in-out;
+    border-radius: inherit;
+    text-align: right;
+  }
+  
+  .percentStyle {
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .labelStyles {
+    padding: 5px;
+    color: blue;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+  }

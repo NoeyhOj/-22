@@ -1,0 +1,120 @@
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .home-banner-container {
+      position: relative;
+      display: flex;
+      padding-top: 3rem;
+      padding-left: 3rem;
+      padding-right: 3rem;
+  }
+  
+  .home-bannerImage-container {
+      z-index: -2;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+  
+  .home-bannerImage-container img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+  
+  .home-image-section {
+      margin-top: 20rem;
+      max-width: 600px;
+      flex: 1;
+  }
+  
+  .home-text-section {
+      margin-top: 20rem;
+      margin-bottom: 20rem;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+  }
+  
+  .home-primary-heading {
+      font-size: clamp(2rem, 5vw, 4rem);
+      color: white;
+      max-width: 600px;
+  }
+  
+  .home-primary-text {
+      font-size: clamp(1rem, 3vw, 1.5rem);
+      max-width: 500px;
+      color: #ffffff;
+      margin: 1.5rem 0rem;
+      word-break: keep-all;
+  }
+  
+  .secondary-button {
+      padding: 1rem 2.5rem;
+      background-color: #2e7d32;
+      outline: none;
+      border: none;
+      border-radius: 5rem;
+      font-size: 1.1rem;
+      cursor: pointer;
+      font-weight: 600;
+      color: white;
+      transition: 0.2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 2rem;
+  }
+  
+  .secondary-button svg {
+      margin-left: 0.75rem;
+      font-size: 1.5rem;
+  }
+  
+  .secondary-button:hover {
+      background-color: #e48f0f;
+  }
+  
+  .home-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, .8);
+      z-index: -1;
+    }
+  
+  
+  @media (max-width: 800px) { 
+      .home-banner-container,
+      .about-section-container {
+          flex-direction: column-reverse;
+          align-items: center;
+          justify-content: center;
+      }
+      .home-text-section {
+          align-items: center;
+      }
+  
+      .home-image-section {
+          width: 100%;
+          margin-top: 5rem;
+          margin-bottom: 0rem;
+      }
+      .home-text-section {
+          margin-top: 2rem;
+          margin-bottom: 10rem;
+      }
+  }
